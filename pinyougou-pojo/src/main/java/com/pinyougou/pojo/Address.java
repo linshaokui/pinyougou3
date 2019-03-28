@@ -27,6 +27,7 @@ public class Address implements Serializable{
     private String contact;
 	@Column(name="is_default")
     private String isDefault;
+
 	@Column(name="notes")
     private String notes;
 	@Column(name="create_date")
